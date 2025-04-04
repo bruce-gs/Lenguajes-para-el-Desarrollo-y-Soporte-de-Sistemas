@@ -1,37 +1,70 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ejemplos Básicos de HTML</title>
 </head>
 <body>
-    
-    <h1>Título 1</h1>
-        <p>Lorem ipsum <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae facilis praesentium quos nihil esse perferendis corrupti commodi illo rerum quas, corporis in non deleniti. Provident officiis voluptates commodi voluptatibus molestias.</b>dolor sit, amet consectetur adipisicing elit. Dolorum, quis debitis? Provident error nemo earum nobis, voluptas voluptatum necessitatibus voluptates assumenda, voluptatem soluta sequi? Enim fuga illo doloribus eos velit?</p>
-        <a href="https://www.youtube.com/">Youtube</a>
-        <a href="https://www.facebook.com/">facebook</a>
 
+    <h1>Ejemplos Básicos de Etiquetas HTML</h1>
+
+    <section>
+        <h2>Enlaces</h2>
+        <p>
+            La etiqueta <code>&lt;a&gt;</code> se utiliza para crear enlaces a otras páginas web, archivos o ubicaciones internas.
+        </p>
+        <a href="https://www.wikipedia.org" target="_blank">Ir a Wikipedia</a>
+    </section>
+
+    <section>
+        <h2>Imágenes</h2>
+        <p>
+            La etiqueta <code>&lt;img&gt;</code> se utiliza para insertar imágenes.
+        </p>
+        <img src="./img/imagenpruba.jpg" alt="Imagen de Prueba" width="150">
+    </section>
+
+    <section>
+        <h2>Listas</h2>
+
+        <h3>Lista sin orden (<code>&lt;ul&gt;</code>)</h3>
         <ul>
-            <li>Nombre 1</li>
-            <li>Nombre 2</li>
-            <li>Nombre 3</li>
-            <li>Nombre 4</li>
+            <li>Grupo 1</li>
+            <li>Grupo 2</li>
+            <li>Grupo 3</li>
         </ul>
 
-        <ol>
-            <li>Nombre 5</li>
-            <li>Nombre 6</li>
-            <li>Nombre 7</li>
-            <li>Nombre 8</li>
-            <img src="./img/imagenpruba.jpg" alt="">
+        <h3>Lista ordenada (<code>&lt;ol&gt;</code>)</h3>
+        <ol type="A" start="1">
+            <li>Grupo 1</li>
+            <li>Grupo 2</li>
+            <li>Grupo 3</li>
         </ol>
 
-    <h2>Título 2</h2>
-    <h3>Título 3</h3>
-    <h4>Título 4</h4>
-    <h5>Título 5</h5>
-    <h6>Título 6</h6>
+        <h3>Lista de frutas (<code>&lt;li&gt;</code>)</h3>
+        <ul>
+            <li>Manzana</li>
+            <li>Banana</li>
+            <li>Naranja</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Formulario Básico</h2>
+        <p>
+            La etiqueta <code>&lt;input&gt;</code> se usa para crear campos interactivos en formularios.
+        </p>
+        <form>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre">
+            <br>
+            <label>
+                <input type="checkbox" name="suscribirse"> Recordarme
+            </label>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
 
 </body>
 </html>
