@@ -1,0 +1,9 @@
+.padre {
+    display: flex;
+    padding: 200px;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
