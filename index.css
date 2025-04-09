@@ -1,0 +1,74 @@
+body {
+    font-family: 'Anek Tamil', sans-serif;
+    font-weight: 400;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .container {
+    display: flex;
+    gap: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+
+  .card {
+    width: 250px;
+    padding: 40px 30px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .sedan {
+    background-color: #ed8c1b;
+  }
+
+  .suv {
+    background-color: #066b6d;
+  }
+
+  .luxury {
+    background-color: #003d3d;
+  }
+
+  .icon {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-size: 24px;
+    margin: 0 0 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  .btn {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+  }
+
+  .btn:hover {
+    background-color: #ddd;
+  }
